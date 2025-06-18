@@ -1,0 +1,162 @@
+/* ✅ Admin Container */
+.admin-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  color: #3E1F17; /* Darker brown */
+  font-family: Arial, sans-serif;
+}
+
+/* ✅ Admin Header */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6D3B2F; /* Brown */
+  color: #f9f5f3;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* ✅ Logout Button */
+.logout-btn {
+  background: #ff4d4d;
+  border: none;
+  padding: 6px 10px; /* Reduced size */
+  color: white;
+  font-size: 12px; /* Smaller font */
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.logout-btn:hover {
+  background: #e63939;
+}
+
+/* ✅ Add User Form */
+.add-user-form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.add-user-form input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #6D3B2F;
+  border-radius: 5px;
+  color: #3E1F17;
+  background: #f9f5f3;
+}
+
+.add-btn {
+  background: #6D3B2F;
+  color: #f9f5f3;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background: #5A2C24;
+}
+
+/* ✅ User Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #3E1F17;
+  font-size: 14px;
+}
+
+th {
+  background-color: #6D3B2F;
+  color: #f9f5f3;
+}
+
+/* ✅ Payment Status Column */
+.payment-status {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* ✅ Color Coding for Status */
+.payment-status.yes {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.payment-status.no {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* ✅ Payment Toggle Button */
+.payment-btn {
+  margin-left: 8px;
+  background-color: #6D3B2F;
+  color: #f9f5f3;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  background-color: #5A2C24;
+}
+
+
+/* ✅ Action Buttons */
+.block-btn,
+.unblock-btn,
+.delete-btn {
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.block-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.block-btn:hover {
+  background-color: #e63939;
+}
+
+.unblock-btn {
+  background-color: #6D3B2F;
+  color: #f9f5f3;
+}
+
+.unblock-btn:hover {
+  background-color: #5A2C24;
+}
+
+.delete-btn {
+  background-color: #333;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #777;
+}
