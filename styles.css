@@ -1,0 +1,133 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Login Page Centered */
+.login-page {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Login Title */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6e8efb;
+  margin-bottom: 20px;
+}
+
+/* Phone Input Section */
+.phone-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #6e8efb;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* Smaller Country Code Dropdown */
+.country-code {
+  width: 50px;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  max-width: 250px;
+  padding: 12px;
+  margin: 5px;
+  border: none;
+  border-left: 2px solid #6e8efb;
+  border-radius: 0 8px 8px 0;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(110, 142, 251, 0.5);
+}
+
+/* OTP Button */
+.otp-btn {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border-radius: 50px;
+  padding: 12px;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.otp-btn:hover {
+  background: #5a78e0;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Circular Social Button */
+.social-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.social-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Google Button */
+.google-btn {
+  background-color: #DB4437;
+}
+
+/* Hover Effects */
+.social-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Error Messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
